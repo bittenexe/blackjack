@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 import java.util.Scanner;
 
 public class Player {
@@ -8,7 +10,6 @@ public class Player {
     public Player(String name) {
         this.name = name;
         this.hand = new Hand();
-\                Scanner scanner;
- = new Scanner(System.in);
+           Scanner scanner = new Scanner(System.in);
     }
 }
